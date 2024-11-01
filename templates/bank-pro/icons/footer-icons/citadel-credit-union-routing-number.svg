@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 96 96" enable-background="new 0 0 96 96" xml:space="preserve">
+<g id="Guidelines">
+</g>
+<g id="Your_Icons">
+	<path fill="#4F8ABE" stroke="#2C4872" stroke-miterlimit="10" d="M83.42,49.793c0.001,0.006,0,0.011,0.001,0.017
+		c0.007,0.022,0.022,0.038,0.028,0.06L83.42,49.793z"/>
+	<g>
+		<path fill="#FFFFFF" d="M48,95.5C21.809,95.5,0.5,74.191,0.5,48S21.809,0.5,48,0.5S95.5,21.809,95.5,48S74.191,95.5,48,95.5z
+			 M48,2C22.636,2,2,22.636,2,48s20.636,46,46,46s46-20.636,46-46S73.364,2,48,2z"/>
+		<g>
+			<path fill="#FFFFFF" d="M44,40c0-1.657-1.343-3-3-3h-1c-1.657,0-3,1.343-3,3v16c0,1.657,1.343,3,3,3h1c1.657,0,3-1.343,3-3V40z"
+				/>
+			<path fill="#FFFFFF" d="M58.5,38.239c0,1.65-1.35,3-3,3h-2.4c-1.65,0-3-1.35-3-3V35c0-1.65,1.35-3,3-3h2.4c1.65,0,3,1.35,3,3
+				V38.239z"/>
+			<path fill="#FFFFFF" d="M58.5,61.264c0,1.65-1.35,3-3,3h-2.4c-1.65,0-3-1.35-3-3v-3.239c0-1.65,1.35-3,3-3h2.4c1.65,0,3,1.35,3,3
+				V61.264z"/>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,4 @@
+<?php
+/*
+Financier CryptoPro theme
+*/

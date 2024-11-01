@@ -1,0 +1,19 @@
+__ci_last_regenerate|i:1664555111;_ci_previous_url|s:28:"https://josephchuks.com/user";user_id|s:2:"26";deposit|s:963:"<div class="modal-dialog" role="document">
+				<div class="modal-content">
+                    <div class="modal-header text-center">
+				    &nbsp;
+			    </div>
+			<div class="modal-body">
+			 <small>Send <b><span class="text-danger">192.295274 TRX</span></b> to the wallet address below<br> (Network Fees Included)</small><br>
+			<img src="https://api.qrserver.com/v1/create-qr-code/?data=TW3djii85FCUVL2hNFAfyD4pWodZZuaL12&amp;size=200x200" alt="Wallet Barcode">
+						<hr>
+						<button onclick="myCopy()" class="clip_modal btn btn-sm btn-secondary shadowed" data-clipboard-text="TW3djii85FCUVL2hNFAfyD4pWodZZuaL12"><i class="fas fa-copy"></i>&nbsp;Copy Wallet Address</button>
+						<span class="text-success" id="showCopy" style="display: none">Wallet Copied!</span>
+			</div>
+			<div class="modal-footer">
+				<div class="btn-inline">
+					<a href="#" class="btn" data-bs-dismiss="modal">CLOSE</a>
+				</div>
+			</div>
+		</div>
+			</div>";__ci_vars|a:1:{s:7:"deposit";s:3:"old";}

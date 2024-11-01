@@ -1,0 +1,440 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202304 will be lost/reset.
+# Last config file used to build this data file was /home2/bastionb/tmp/awstats/awstats.bastionbanks.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2697                
+POS_VISITOR 3375                
+POS_DAY 4867                
+POS_DOMAIN 5018                
+POS_LOGIN 5299                
+POS_ROBOT 5454                
+POS_WORMS 5670                
+POS_EMAILSENDER 5801                
+POS_EMAILRECEIVER 5944                
+POS_SESSION 6020                
+POS_SIDER 6157                
+POS_FILETYPES 9658                
+POS_DOWNLOADS 9880                
+POS_OS 9928                
+POS_BROWSER 10120               
+POS_SCREENSIZE 10370               
+POS_UNKNOWNREFERER 10444               
+POS_UNKNOWNREFERERBROWSER 10710               
+POS_ORIGIN 10868               
+POS_SEREFERRALS 11002               
+POS_PAGEREFS 11146               
+POS_SEARCHWORDS 12370               
+POS_KEYWORDS 12522               
+POS_MISC 2361                
+POS_ERRORS 12581               
+POS_CLUSTER 5155                
+POS_SIDER_404 12722               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230425142036 598 112776 11098827446602
+FirstTime 20230425134712
+LastTime 20230425141426
+LastUpdate 20230425143928 598 0 598 0 0
+TotalVisits 17                  
+TotalUnique 17                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 17                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 54 55 353959 458 480 2407756
+14 21 54 1113272 6 9 8350
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 17
+209.133.192.74 31 31 2329 20230425134909 20230425134712 /.well-known/acme-challenge/DZ5YwHVTOv-3FCs3Lrci_-YEaI5FmndVcgyLAkXHMjA
+217.138.255.198 21 54 1113272 20230425141426 20230425140504 /cpsess3412574915/execute/ResourceUsage/get_usages
+54.90.76.77 3 3 36454 20230425134927 20230425134927 /
+54.173.30.174 3 3 36463 20230425134927 20230425134927 /
+54.184.149.237 3 3 261 20230425134859 20230425134859 /.well-known/acme-challenge/zx17vuhLi9D86qhGZLQwvIIDJly4-kpztV83FXEeJqY
+3.15.214.1 2 2 174 20230425134859 20230425134858 /.well-known/acme-challenge/r1BmEdtsa7tVqqL7TugiD7-OdzZZ4Az2nczfuiSq6LE
+23.178.112.102 2 2 174 20230425134859 20230425134859 /.well-known/acme-challenge/r1BmEdtsa7tVqqL7TugiD7-OdzZZ4Az2nczfuiSq6LE
+185.246.188.74 1 2 42858 20230425135229 20230425135229 /
+51.75.141.254 1 1 37442 20230425135227 20230425135227 /
+45.134.225.36 1 1 37318 20230425135227 20230425135227 /
+192.158.226.16 1 1 37051 20230425135227 20230425135227 /
+159.223.108.26 1 1 37051 20230425135044 20230425135044 /
+68.183.64.176 1 1 37063 20230425135045 20230425135045 /
+23.178.112.107 1 1 87 20230425134859 20230425134859 /.well-known/acme-challenge/zx17vuhLi9D86qhGZLQwvIIDJly4-kpztV83FXEeJqY
+87.115.231.172 1 1 37051 20230425135227 20230425135227 /
+18.118.46.111 1 1 87 20230425134859 20230425134859 /.well-known/acme-challenge/zx17vuhLi9D86qhGZLQwvIIDJly4-kpztV83FXEeJqY
+15.204.173.67 1 1 12096 20230425134939 20230425134939 /
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20230425 75 109 1467231 17
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+us 47 47 199029
+gb 23 56 1187765
+zz 3 3 261
+ru 1 2 42858
+in 1 1 37318
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+Go\-http\-client/ 31 375571 20230425135046 0
+no_user_agent 2 74114 20230425135043 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 0
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 45
+/ 15 357328 10 0
+/.well-known/acme-challenge/zx17vuhLi9D86qhGZLQwvIIDJly4-kpztV83FXEeJqY 3 261 2 0
+/.well-known/acme-challenge/r1BmEdtsa7tVqqL7TugiD7-OdzZZ4Az2nczfuiSq6LE 3 261 0 0
+/.well-known/acme-challenge/YELX0YXhTFmCxRNXMwQjppquq5pjA8v-8blwrPiRZTY 3 261 0 0
+/.well-known/acme-challenge/DZ5YwHVTOv-3FCs3Lrci_-YEaI5FmndVcgyLAkXHMjA 3 261 0 0
+/.well-known/acme-challenge/UJlN295xw9TpK5zPvZ5V2sl4zSsLVIeP5DfG3vurTok 3 261 3 0
+/.well-known/acme-challenge/_1Md7xUS6YR0KqRSc6IpHrOgr4_PHX6-3yFB6JrfLSk 3 261 0 0
+/.well-known/acme-challenge/gu1xKrypL3I_w7e3NybfxixLWT_d1J_0jGcizpBefGk 3 261 0 0
+/.well-known/acme-challenge/gls2plKjQlgcWBCHNXxINhrlVeOPNpclQxMJYLuf6wU 3 261 0 0
+/.well-known/acme-challenge/759CINN5EGYFNP69-9-EYPP-YY3MX8BD 1 64 0 0
+/.well-known/acme-challenge/G98BQZPKEGN9BPKM0GNCDXUQDBX6UE2K 1 64 0 0
+/.well-known/acme-challenge/8BQQDS_D6QT3CPQOG86R4M48ZFT7P_S1 1 64 0 0
+/.well-known/acme-challenge/9G-WQU-_5TO27L0RSK7XI1DOFA3N_MWS 1 64 0 0
+/cpsess3412574915/execute/Notifications/get_notifications_count 1 82 0 0
+/cPanel_magic_revision_1675886489/frontend/jupiter/libraries/fontawesome/webfonts/fa-solid-900.woff2 1 78260 0 0
+/.well-known/acme-challenge/AV_JVUXOWWJLYPD5DF5223A2GRWOL7K6 1 64 0 0
+/unprotected/loader.html 1 905 0 0
+/cpsess3412574915/execute/Resellers/list_accounts 1 158 0 0
+/cpsess3412574915/execute/SSL/installed_host 1 711 0 0
+/.well-known/acme-challenge/WP6M9C0UNWH4RFPOVYD6CBTU7-3W1SG1 1 64 0 0
+/cpsess3412574915/execute/Personalization/get 1 162 0 0
+/cPanel_magic_revision_1675886489/frontend/jupiter/libraries/ui-fonts/open_sans/optimized/OpenSans-Regular-webfont.woff 1 22660 0 0
+/unprotected/redirect.html 1 513 0 0
+/cPanel_magic_revision_1661273421/frontend/jupiter/libraries/roboto-font/optimized/Roboto-Regular-webfont.woff 1 20924 0 0
+/cPanel_magic_revision_1661273421/frontend/jupiter/libraries/remixicons/fonts/remixicon.woff2 1 125268 0 0
+/cPanel_magic_revision_1675886489/frontend/jupiter/libraries/ui-fonts/open_sans/optimized/OpenSans-Light-webfont.woff 1 22248 0 0
+/.well-known/acme-challenge/LVQ_2QHUSAZW8-7IUE8BTSDRB8AUYUT1 1 64 1 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Semibold-webfont.woff 1 22908 0 0
+/login/ 1 119 0 0
+/.well-known/acme-challenge/TPLTZB2I52Z8HU3S4L0886DL_4Z5_2CW 1 64 0 0
+/cpsess3412574915/execute/ResourceUsage/get_usages 1 703 0 0
+/.well-known/acme-challenge/MV-Z5K4GQO78B3519UL_770QUWEVZF9_ 1 64 0 0
+/.well-known/acme-challenge/N2ZYIDHKAMDMNSR55Y3NKQYESQ-GJB14 1 64 0 0
+/.well-known/acme-challenge/K4FEA3-Q0SR5Q791S58S0WIU4B14HGG_ 1 64 0 0
+/.well-known/acme-challenge/ZDOGONVMC0BKXU-C9822WLQYXRN1L4_S 1 64 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Regular-webfont.woff 1 22660 0 0
+/cpanel 1 12973 1 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Bold-webfont.woff 1 22432 0 0
+/cpsess3412574915/frontend/jupiter/ 1 62285 0 0
+/cPanel_magic_revision_1675886489/frontend/jupiter/libraries/ui-fonts/open_sans/optimized/OpenSans-Semibold-webfont.woff 1 22908 0 0
+/.well-known/acme-challenge/-ZTJZUFMV7OHPDLYFKFA2D_B1EM2QJ4- 1 64 0 0
+/cpsess3412574915/execute/Themes/display_list 1 107 0 0
+/.well-known/acme-challenge/5W65WAKEF53_SN9P44OI0_HT7PFUM5FB 1 64 0 0
+/.well-known/acme-challenge/FKK7ZAU4BA5Q0VRC1HBLFG7Z4H_J2ZKS 1 64 0 0
+/.well-known/acme-challenge/VX6EAI4QYJER57_91B6-D5PKQZ7MDKCX 1 64 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+js 9 460751 0 0
+html 19 421150 0 0
+Unknown 47 18008 0 0
+woff2 2 203528 0 0
+png 8 19341 0 0
+woff 7 156740 0 0
+gif 1 1849 0 0
+svg 6 77781 0 0
+css 10 108083 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+ios_iphone 2 2
+win10 54 21
+macosx6 3 3
+winxp 3 3
+macosx15 1 1
+linuxubuntu 1 1
+android 2 1
+androidmarshmallow 2 2
+Unknown 41 41
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 11
+chrome111.0.0.0 2 1
+firefox111.0 1 1
+chrome112.0.0.0 54 21
+chrome23.0.1271.6 3 3
+safari16.3 1 1
+chrome52.0.3515.98 2 2
+Unknown 17 17
+safari16.4 1 1
+mozilla 24 24
+chrome5.0.375.99 3 3
+firefox72.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+python-requests/2.25.1 20230425134939
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20230425134909
+Cpanel-HTTP-Client/1.0 20230425134850
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Cpanel-HTTP-Client/1.0 20230425134850
+python-requests/2.25.1 20230425134939
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 50 50
+From1 0 0
+From2 0 0
+From3 24 58
+From4 1 1
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 11
+https://cpanel.bastionbanks.com 13 35
+https://cpanel.bastionbanks.com/cPanel_magic_revision_1675886489/frontend/jupiter/_assets/css/master-ltr.cmb.min.css 4 4
+https://cpanel.bastionbanks.com/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/open_sans.min.css 3 3
+https://cpanel.bastionbanks.com/cPanel_magic_revision_1661273421/frontend/jupiter/styles/fonts.min.css 2 2
+https://cpanel.bastionbanks.com/unprotected/redirect.html 1 1
+https://cpanel.bastionbanks.com/unprotected/loader.html 1 1
+https://cpanel.bastionbanks.com/cPanel_magic_revision_1656366623/frontend/jupiter/libraries/chosen/1.5.1/chosen.min.css 0 1
+https://cpanel.bastionbanks.com/cPanel_magic_revision_1661272988/unprotected/cpanel/images/cpanel-logo.svg 0 1
+https://cpanel.bastionbanks.com/cPanel_magic_revision_1680238251/frontend/jupiter/assets/application_icons/sprites/icon_spritemap.css 0 2
+https://cpanel.bastionbanks.com/cPanel_magic_revision_1675886484/unprotected/cpanel/style_v2_optimized.css 0 7
+https://cpanel.bastionbanks.com/cpsess3412574915/frontend/jupiter/index.html 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+308 1 85
+403 53 63908
+401 154 1630472
+404 233 264932
+301 10 6363
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 103
+/db_backup.sql 1 -
+/config/aws.yml 1 -
+/home.zip 1 -
+/phpmyadmin 1 -
+/config/config.ini 1 -
+/blog 1 -
+/.DS_Store 6 -
+/FileZilla.xml 1 -
+/api/.env 1 -
+/dump.sql 1 -
+/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/database.zip 1 -
+/export.tar.gz 1 -
+/.env.production 1 -
+/.env 7 -
+/site.zip 1 -
+/filezilla.xml 1 -
+/version 6 -
+/backup.tar 1 -
+/api/search 6 -
+/.env.staging 1 -
+/wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/.env.test 1 -
+/config/default.json 1 -
+/home.tar 1 -
+/wp 1 -
+/.env.prod 1 -
+/th1s_1s_a_4o4.html 1 http://www.google.com/url
+/.vscode/sftp.json 7 -
+/site.tar 1 -
+/config.json 6 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 6 -
+/login.action 6 -
+/installer.php 1 -
+/adminer.php 1 -
+/sitemanager.xml 1 -
+/_cat/indices 1 -
+/config.ini 1 -
+/.vscode/.env 1 -
+/api/php.php 1 -
+/aws.json 1 -
+/wp-info.php 1 -
+/lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/phpMyAdmin 1 -
+/.vscode/settings.json 1 -
+/prod.json 1 -
+/database.sql 1 -
+/app.ini 1 -
+/export.sql 1 -
+/production.json 1 -
+/squid-internal-static/icons/SN.png 2 https://bastionbanks.com/
+/.env.local 1 -
+/swagger/ui/index 1 -
+/PMA 1 -
+/export.rar 1 -
+/config/aws.json 1 -
+/recentservers.xml 1 -
+/backup.zip 1 -
+/php.php 1 -
+/.aws/credentials 1 -
+/info.php 7 -
+/debug/default/view 6 -
+/v2/_catalog 6 -
+/export.tar 1 -
+/.env.backup 1 -
+/staging.json 1 -
+/.env.bak 1 -
+/api/info.php 1 -
+/backup.tar.gz 1 -
+/wordpress 1 -
+/default.json 1 -
+/.env.php 1 -
+/api/wp-info.php 1 -
+/about 6 -
+/db.sql 1 -
+/config/prod.json 1 -
+/api/phpinfo.php 1 -
+/default.ini 1 -
+/.env.dev 1 -
+/ 51 -
+/production.ini 1 -
+/home.rar 1 -
+/swagger/static/index.html 1 -
+/server-status 6 -
+/phpinfo.php 1 -
+/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/aws.yml 1 -
+/config/staging.json 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/site.rar 1 -
+/config/production.json 1 -
+/export.zip 1 -
+/backup.rar 1 -
+/db.zip 1 -
+/swagger-ui.html 1 -
+/sftp-config.json 1 -
+/home.tar.gz 1 -
+/.vscode/ftp-sync.json 1 -
+/s/4373e2239313e2333313e2930323/_/ 6 -
+/swagger/index.html 1 -
+/backup.sql 1 -
+/site.tar.gz 1 -
+/telescope/requests 7 -
+END_SIDER_404

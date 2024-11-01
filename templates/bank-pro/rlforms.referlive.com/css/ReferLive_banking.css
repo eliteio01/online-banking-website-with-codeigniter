@@ -1,0 +1,403 @@
+form.css_cs_rl_tbl_rgForm  
+{
+    
+    padding:5px;
+    max-width :600px;
+    -webkit-text-size-adjust: 100%;
+    margin-bottom:5px;
+    font-family: myriad-pro-1,myriad-pro-2,sans-serif;
+    font-weight: 400;
+    outline:none;
+}
+
+form.css_cs_rl_tbl_rgForm label{
+    display:inline-block;
+    color: #444;
+    padding-bottom: 2px;
+    font-size: 14px;
+    line-height: 1.5em;
+    
+}
+
+form.css_cs_rl_tbl_rgForm input[type="text"]  
+{
+    outline:none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 36px;
+    padding: 0px 6px;
+        background-color: transparent;
+    border: 2px solid #ddd;
+    display: block;
+    color: #444;
+    background: #fdfdfd;
+    font-size: 16.2px;
+        line-height: 1.5em;
+     
+    
+    
+} 
+
+form.css_cs_rl_tbl_rgForm input[type="text"]:focus
+{
+    color: #495057;
+    background-color: #fff;
+    border-color: #444;
+    outline: 0;
+    
+} 
+
+
+input[type="text"].css_cs_rl_tbl_rgForm_Error 
+{
+    border: 1px solid #C10230 !important;
+}
+
+.cs_rdBtns {
+    text-align: center;
+}
+
+form.css_cs_rl_tbl_rgForm input[type="radio"] {
+    height:auto;
+    width:auto;
+    margin-left: 30px;
+}
+
+form.css_cs_rl_tbl_rgForm input[type="button"] 
+{
+    display: block;
+    align-items: center;
+    background-color: #f69220;
+    border: .125rem solid #f69220;
+    border-radius: 1.6875rem;
+    color: #000;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 36px;
+    width: 100%;
+    text-align: center;
+    transition: .3s;
+    transition-property: color,background,border;
+   outline:none;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .15rem;
+    line-height: 1;
+    margin-top: 23px;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+   
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;    
+    -webkit-appearance: none;   
+} 
+
+
+form.css_cs_rl_tbl_rgForm input[type="button"]:hover 
+{
+   
+    background-color: #fff;
+     
+} 
+
+
+input[type="button"].css_cs_rl_tbl_rgBtnDisable 
+{
+    cursor: not-allowed !important;
+    background-color: #f69220 !important;  
+    color: #FFF !important;
+} 
+
+input[type="button"].cs_rl_btn_progress 
+{
+    cursor: wait !important;
+} 
+
+label.cs_rl_cssValidation 
+{
+    color: #C10230 !important;
+    font-size:12px;
+} 
+
+span.cs_rl_cssValidation 
+{
+    color: #C10230 !important;
+    font-size:12px;
+} 
+
+label.cs_rl_lblSucess 
+{
+    
+    color: #1f375c !important;
+    margin-top:12px;
+    font-weight:bold !important;
+    font-size:24px !important;
+    padding-top:3px;
+    border-radius: 20px;
+    width:100%;
+    text-align:center !important;
+} 
+
+label.cs_rl_lblFail 
+{
+    float: right;
+    color: #C10230 !important;
+    margin-top:12px;
+    font-weight:bold;
+    font-size:14px;
+    padding-top:3px;
+} 
+
+
+
+.cs_rl_btn {
+    width: 125px;
+}
+
+.cs_rl_btn_mob {
+    width: 100%;
+}
+
+
+.cs_rl_shr_email_section_title label{
+    font-weight:bold !important;
+    padding-bottom: 10px;
+    padding-left:5px;
+    
+}
+.cs_rl_shr_email_section{
+    padding-top:15px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.cs_rl_shr_email_section2{
+    background:#f9f9f9;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.cs_rl_shr_email_section3{
+      padding-top:15px;
+      padding-left:5px;
+    padding-right:5px;
+    
+}
+
+
+
+[class*="cs_rl_col_"] {
+    float:left;
+    padding: 5px 5px;
+    display:table-cell;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+} 
+
+
+.cs_rl_row::after {
+    content: "";
+    clear: both;
+    display: table;
+} 
+
+.cs_rl_col_s_6 {
+    width:50%;
+}
+
+
+.cs_rl_col_s_12 {
+    width:100%;
+}
+
+.cs_rl_col_s_4{
+    width:33.33%;
+}
+
+.cs_rl_col_s_2{
+    width:16.67%;
+}
+
+@media only screen and (max-width: 400px) {
+
+    .cs_rl_col_s_6 {
+        width: 100%;
+    }
+
+    .cs_rl_col_s_12 {
+        width: 100%;
+    }
+
+    .cs_rl_col_s_4 {
+        width: 100%;
+    }
+
+    .cs_rl_col_s_2 {
+        width: 100%;
+    }
+}
+
+/* Share form css */
+
+.cs_rl_shr_hdr{
+    text-align:center;
+    font-size:32px;
+    color:#1f375c;
+}
+
+.cs_rl_shr_hdr_mob{
+    text-align:center;
+    font-size:26px;
+    color:#1f375c;
+}
+
+.cs_rl_shr_sub{
+    font-size:18px;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.cs_rl_shr_sub_mob{
+    font-size:14px;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.cs_rl_shr_social_txt{
+    
+    display:none;
+    width:0px;
+    height:0px;
+    cursor:pointer;
+    margin-right:15px;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.cs_rl_shr_social_txt_mob{
+    background:url(../images/citadel_txt.png);
+    display:inline-block;
+    width:30px;
+    height:30px;
+    cursor:pointer;
+    margin-right:15px;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.cs_rl_shr_social_fb{
+    background:url(../images/citadel_fb.png);
+    display:inline-block;
+    width:30px;
+    height:30px;
+    cursor:pointer;
+    margin-right:15px;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.cs_rl_shr_social_fb_mob{
+    background:url(../images/citadel_fb.png);
+    display:inline-block;
+    width:30px;
+    height:30px;
+    cursor:pointer;
+    margin-right:15px;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.cs_rl_shr_social_fbmsg{
+    background:url(../images/citadel_messenger.png);
+    display:inline-block;
+    width:30px;
+    height:30px;
+    cursor:pointer;
+    margin-right:15px;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.cs_rl_shr_social_fbmsg_mob{
+    background:url(../images/citadel_messenger.png);
+    display:inline-block;
+    width:30px;
+    height:30px;
+    cursor:pointer;
+    margin-right:15px;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.cs_rl_shr_social_twitter{
+    background:url(../images/citadel_twitter.png);
+    display:inline-block;
+    width:30px;
+    height:30px;
+    cursor:pointer;
+    margin-right:15px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.cs_rl_shr_social_twitter_mob{
+    background:url(../images/citadel_twitter.png);
+    display:inline-block;
+    width:30px;
+    height:30px;
+    cursor:pointer;
+    margin-right:15px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.cs_rl_shr_social_linkedin{
+    background:url(../images/citadel_linkedin.png);
+    display:inline-block;
+    width:30px;
+    height:30px;
+    cursor:pointer;
+    margin-right:15px;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.cs_rl_shr_social_linkedin_mob{
+    background:url(../images/citadel_linkedin.png);
+    display:inline-block;
+    width:30px;
+    height:30px;
+    cursor:pointer;
+    margin-right:15px;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.cs_rl_shr_social_share_section{   
+    display:inline-block;
+    width:100%;
+    cursor:default;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.cs_rl_shr_social_share_section_header {
+    height: 30px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+/* share form css ends */

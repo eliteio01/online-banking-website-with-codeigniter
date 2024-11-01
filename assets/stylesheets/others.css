@@ -1,0 +1,142 @@
+	.navi-text {
+			font-size: 17px;
+			font-weight: 700;
+			color: #000;
+		}
+		
+		.bnavbar {
+			display: none;
+		}
+		
+		
+		
+		@media only screen and (max-width: 600px) {
+			.bnavbar {
+				overflow: hidden;
+				position: fixed;
+				bottom: 0;
+				width: 100%;
+				display: flex;
+				justify-content: space-around;
+			}
+			.bnavbar a {
+				color: #fff;
+				text-align: center;
+				padding: 7px 10px;
+				text-decoration: none;
+			}
+			.bnavbar a:hover {
+				background: #f1f1f1;
+				color: black;
+			}
+			.bnavbar .active {
+				background-color: #fff;
+			}
+			
+			.desktop {
+			display: none;
+			}
+		}
+		
+a.gflag {
+			vertical-align: middle;
+			font-size: 24px;
+			padding: 1px 0;
+			background-repeat: no-repeat;
+			background-image: url(//gtranslate.net/flags/24.png);
+		}
+		
+		a.gflag img {
+			border: 0;
+		}
+		
+		a.gflag:hover {
+			background-image: url(//gtranslate.net/flags/24a.png);
+		}
+		
+		#goog-gt-tt {
+			display: none !important;
+		}
+		
+		.goog-te-banner-frame {
+			display: none !important;
+		}
+		
+		.goog-te-menu-value:hover {
+			text-decoration: none !important;
+		}
+		
+		body {
+			top: 0 !important;
+		}
+		
+		#google_translate_element2 {
+			display: none!important;
+		}
+		
+		.lingua {
+			margin-right: 30px;
+			border: 1px solid #1f6bff;
+			width: 120px;
+		}
+		
+		.desktop {
+			display: block;
+		}
+		
+		.mobile {
+			display: none;
+		}
+		
+		@media only screen and (max-width: 600px) {
+			.lingua {
+				margin-right: 0;
+				border: 1px solid #1f6bff;
+				width: 90px;
+			}
+			.desktop {
+				display: none;
+			}
+			.mobile {
+				display: block;
+			}
+		}
+		
+
+.toolstip {
+  position: relative;
+  display: inline-block;
+}
+
+.toolstip .toolstiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.toolstip .toolstiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.toolstip:hover .toolstiptext {
+  visibility: visible;
+  opacity: 1;
+}

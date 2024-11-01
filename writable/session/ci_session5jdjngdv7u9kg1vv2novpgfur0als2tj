@@ -1,0 +1,19 @@
+__ci_last_regenerate|i:1664785145;_ci_previous_url|s:46:"http://localhost/sky/public/user/notifications";user_id|s:1:"1";admin|s:5:"admin";msg|s:563:"
+          <div class="col-12">
+			    <div class="stat-box mb-1">
+					<h4 class="text-primary font-weight-bold">
+						Account Information Update
+					</h4>
+				</div>
+				<div class="stat-box mb-1">
+					<div class="title">
+						<p>This is u</p>
+					</div>
+					<hr>
+          <div class="title"><a href="http://localhost/sky/public/uploads/1664781775_3cdc095ce23302268658" target="_blank">VIEW ATTACHMENT</a></div>
+				</div>
+				<div class="stat-box mb-1">
+					<small>Received on: 3rd Oct. 2022</small>
+				</div>
+			   </div>
+          ";__ci_vars|a:1:{s:3:"msg";s:3:"old";}

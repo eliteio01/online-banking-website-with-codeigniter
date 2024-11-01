@@ -1,0 +1,120 @@
+ERROR - 2024-10-21 11:08:51 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/bantehbx/city-online.us/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/bantehbx/city-online.us/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/bantehbx/city-online.us/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/bantehbx/city-online.us/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/bantehbx/city-online.us/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/bantehbx/city-online.us/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/bantehbx/city-online.us/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /home/bantehbx/city-online.us/app/Controllers/License.php(23): CodeIgniter\BaseModel->first()
+#7 /home/bantehbx/city-online.us/system/CodeIgniter.php(870): App\Controllers\License->initController()
+#8 /home/bantehbx/city-online.us/system/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#9 /home/bantehbx/city-online.us/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/bantehbx/city-online.us/index.php(71): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/bantehbx/city-online.us/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/bantehbx/city-online.us/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/bantehbx/city-online.us/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/bantehbx/city-online.us/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/bantehbx/city-online.us/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/bantehbx/city-online.us/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#5 /home/bantehbx/city-online.us/app/Controllers/License.php(23): CodeIgniter\BaseModel->first()
+#6 /home/bantehbx/city-online.us/system/CodeIgniter.php(870): App\Controllers\License->initController()
+#7 /home/bantehbx/city-online.us/system/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#8 /home/bantehbx/city-online.us/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/bantehbx/city-online.us/index.php(71): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-10-21 11:08:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/License.php(23): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(870): App\Controllers\License->initController()
+ 7 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-21 11:13:34 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/bantehbx/city-online.us/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/bantehbx/city-online.us/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/bantehbx/city-online.us/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/bantehbx/city-online.us/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/bantehbx/city-online.us/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/bantehbx/city-online.us/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/bantehbx/city-online.us/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /home/bantehbx/city-online.us/app/Controllers/License.php(23): CodeIgniter\BaseModel->first()
+#7 /home/bantehbx/city-online.us/system/CodeIgniter.php(870): App\Controllers\License->initController()
+#8 /home/bantehbx/city-online.us/system/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#9 /home/bantehbx/city-online.us/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/bantehbx/city-online.us/index.php(71): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/bantehbx/city-online.us/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/bantehbx/city-online.us/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/bantehbx/city-online.us/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/bantehbx/city-online.us/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/bantehbx/city-online.us/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/bantehbx/city-online.us/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#5 /home/bantehbx/city-online.us/app/Controllers/License.php(23): CodeIgniter\BaseModel->first()
+#6 /home/bantehbx/city-online.us/system/CodeIgniter.php(870): App\Controllers\License->initController()
+#7 /home/bantehbx/city-online.us/system/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#8 /home/bantehbx/city-online.us/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/bantehbx/city-online.us/index.php(71): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-10-21 11:13:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/License.php(23): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(870): App\Controllers\License->initController()
+ 7 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-21 11:15:30 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'bantehbx_online_banking'@'localhost' (using password: YES) in /home/bantehbx/city-online.us/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/bantehbx/city-online.us/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/bantehbx/city-online.us/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/bantehbx/city-online.us/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/bantehbx/city-online.us/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/bantehbx/city-online.us/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/bantehbx/city-online.us/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /home/bantehbx/city-online.us/app/Controllers/License.php(23): CodeIgniter\BaseModel->first()
+#7 /home/bantehbx/city-online.us/system/CodeIgniter.php(870): App\Controllers\License->initController()
+#8 /home/bantehbx/city-online.us/system/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#9 /home/bantehbx/city-online.us/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/bantehbx/city-online.us/index.php(71): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/bantehbx/city-online.us/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/bantehbx/city-online.us/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/bantehbx/city-online.us/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/bantehbx/city-online.us/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/bantehbx/city-online.us/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/bantehbx/city-online.us/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#5 /home/bantehbx/city-online.us/app/Controllers/License.php(23): CodeIgniter\BaseModel->first()
+#6 /home/bantehbx/city-online.us/system/CodeIgniter.php(870): App\Controllers\License->initController()
+#7 /home/bantehbx/city-online.us/system/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#8 /home/bantehbx/city-online.us/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/bantehbx/city-online.us/index.php(71): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-10-21 11:15:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/License.php(23): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(870): App\Controllers\License->initController()
+ 7 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(71): CodeIgniter\CodeIgniter->run()
